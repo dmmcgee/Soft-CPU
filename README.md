@@ -1,7 +1,7 @@
 # soft_cpu
 Soft processor in C
 
-Basic soft processor with 16-bit registers that addresses 1 MiB of memory. Current version takes 3 command line arguments (the instructions) as follows: `./softcpu command dest src.`
+Basic soft processor with 16-bit registers that addresses 1 MiB of memory. Current version takes 3 command line arguments (the instructions) as follows: `./soft_cpu command dest src.`
 
 For all commands, dest is always the destination for a value, and src is the source of that value.
 
