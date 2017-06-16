@@ -42,7 +42,7 @@ char** gargv;
 // main memory size
 #define ram_bytes 1048576
 
-// define register type with either full 16 bits or high and low 8 bits
+// define register type
 typedef union reg {
     struct __attribute__((packed)) {
         uint8_t low;
