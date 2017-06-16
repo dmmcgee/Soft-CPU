@@ -1,6 +1,6 @@
 /**
  * Basic soft processor with 16-bit registers that addresses 1 MiB of memory. Current version
- * takes 3 command line arguments (the instructions) as follows: ./softcpu command dest src. 
+ * takes 3 command line arguments (the instructions) as follows: ./soft_cpu command dest src. 
  * For all commands, dest is always the destination for a value, and src is the source of that value.
  * 
  * Registers accessible by outside processes: A and B
@@ -194,7 +194,7 @@ int main(int argc, char** argv)
     gargv = argv;
     if (argc != 4)
     {
-        errx(EX_USAGE, "Usage: ./softcpu command dest src");
+        errx(EX_USAGE, "Usage: ./soft_cpu command dest src");
     }
     
     // open ram file or create one if not already existing and mmap RAM
