@@ -218,8 +218,6 @@ int main(int argc, char** argv)
         errx(EX_OSERR, "RAM could not be initialized");
     }
     
-    ram[0x1234] = 64123;
-    
     // load first instruction
     reg_gen.I1.full = *argv[1];
     
