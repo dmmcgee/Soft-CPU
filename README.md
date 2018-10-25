@@ -6,6 +6,7 @@ Basic soft processor with 16-bit registers that addresses 1 MiB of memory. Curre
 For all commands, dest is always the destination for a value, and src is the source of that value.
 
 Registers accessible by outside processes: `A` and `B`
+
 Format of memory address arguments: Hexidecimal, including the hex prefix `0x`.
 
 Command instructions and usage below:
